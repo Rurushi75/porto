@@ -315,6 +315,7 @@ nav a.nav-link:hover {
 @media(max-width:768px) {
     #service .service-list .service-item img {
         width: 100%;
+        height: 100%;
     }
 
     #project .project-item h5 {
@@ -332,6 +333,7 @@ nav a.nav-link:hover {
 @media(max-width:640px) {
     #service .service-list .service-item img {
         width: 100%;
+        height: 100%;
     }
 
     #project .project-item h5 {
