@@ -312,14 +312,14 @@ nav a.nav-link:hover {
 }
 
 /* Responsive */
-@media(max-width:768px) {
+@media(max-width:1400px) {
     #service .service-list .service-item img {
         width: 100%;
         height: 100%;
     }
 
     #project .project-item h5 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     #testimonial .carousel-item .carousel-content {
@@ -330,14 +330,29 @@ nav a.nav-link:hover {
     }
 }
 
-@media(max-width:640px) {
+@media(max-width:786px) {
     #service .service-list .service-item img {
         width: 100%;
         height: 100%;
     }
 
     #project .project-item h5 {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    #testimonial .carousel-item .carousel-content p {
+        font-size: 0 15px;
+    }
+}
+
+@media(max-width:576px) {
+    #service .service-list .service-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #project .project-item h5 {
+        font-size: 13px;
     }
 
     #testimonial .carousel-item .carousel-content p {
